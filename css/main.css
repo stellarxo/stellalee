@@ -58,7 +58,7 @@ h7 {
 }
 
 .paddedtop {
-  padding-top: 150px;
+  padding-top: 50px;
 }
 
 img {
@@ -238,14 +238,18 @@ video {
   background:transparent;
 }
 
-.transparent{
+.transparent {
   background:rgba(255,255,255,0.3);
 }
 
-.semi-transparent{
+.semi-transparent {
   background:rgba(255,255,255,0.9);
 }
 
-.dark-transparent{
+.dark-transparent {
   background:rgba(0,0,0,0.9);
+}
+
+.portrait {
+  height: 300px;
 }
