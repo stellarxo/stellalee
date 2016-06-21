@@ -81,8 +81,7 @@
 
   <!------------------------Portfolio------------------------>
 
-  <div class="container-fluid" id="portfolio">
-
+  <div class="container-fluid nopadding" id="portfolio">
     <div class="col-md-4 nopadding">
       <img src="images/Portfolio/1.png" class="video grayscale">
     </div>
@@ -195,6 +194,14 @@
       }
     }
   });
+});
+</script>
+
+<script>
+  $("#imgHighQuality").off().on("load", function() {
+    $("#div_whatever").css({
+        "src" : "url(images/Portfolio/1.png)"
+    });
 });
 </script>
 
