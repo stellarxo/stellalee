@@ -43,7 +43,6 @@ h5 {
   font-weight: 700;
   font-size: 24px;
   line-height: 30px;
-  
 }
 
 h6 {
@@ -78,10 +77,6 @@ img {
 
 .features {
   text-align: center;
-}
-
-.butt {
-  margin-left: 60px;
 }
 
 .centeredimg {
@@ -201,11 +196,18 @@ a {
   border-bottom: none;
 }
 
-.navbar > .active > a,
-.navbar > .active > a:hover,
-.navbar > .active > a:focus {
-  background:rgba(0,0,0,0.8);
-  border-color: black;
+.navbar-inverse {
+    background: rgba(0,0,0,0.5);
+    border: none;
+}
+
+.navbar-inverse:hover {
+  background: rgba(0,0,0,0.9);
+  -o-transition:.9s;
+  -ms-transition:.9s;
+  -moz-transition:.9s;
+  -webkit-transition:.9s;
+  transition:.9s;
 }
 
 .nopadding {
