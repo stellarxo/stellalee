@@ -19,20 +19,18 @@ h1 {
   font-size: 100px !important;
   padding-top: 350px;
   padding-left: 30px;
-  font-family: 'Amatica SC', cursive;
 }
 
 h2 {
   font-weight: 600;
   font-size: 18px;
-  line-height: 70px;
+  line-height: 30px;
 }
 
 h3 {
   font-weight: 800;
   font-size: 42px;
 }
-
 
 h4 {
   font-weight: 600;
@@ -148,13 +146,13 @@ video {
 
 .icon {
   font-size: 80px;
-  color: white;
+  color: black;
   line-height: 0px;
 }
 
 .sm {
   font-size: 30px;
-  color: white;
+  color: black;
 }
 
 .sm:hover {
@@ -163,7 +161,7 @@ video {
   -moz-transition:.9s;
   -webkit-transition:.9s;
   transition:.9s;
-  color: #A3AEFF;
+  color: #0D0DDE;
 }
 
 a {
@@ -176,8 +174,8 @@ a {
 
 .email {
   text-decoration: none;
-  border-bottom: 4px solid white;
-  color: white;
+  border-bottom: 4px solid black;
+  color: black;
   -o-transition:.9s;
   -ms-transition:.9s;
   -moz-transition:.9s;
@@ -188,7 +186,7 @@ a {
 .email:hover {
   text-decoration: none;
   border-bottom: 4px solid #0AD192;
-  color: white;
+  color: black;
 }
 
 .sm:hover {
@@ -238,8 +236,12 @@ a {
   background:rgba(255,255,255,0.8);
 }
 
+.semi-transparent {
+  background:rgba(255,255,255,0.7);
+}
+
 .dark-transparent {
-  background:rgba(0,0,0,0.8);
+  background:rgba(0,0,0,0.7);
 }
 
 .portrait {
