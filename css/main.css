@@ -6,15 +6,9 @@ body {
   color: #1a1a1a
 }
 
-@font-face{
-    font-family: "BeyondTheMountains";
-    src: url('../fonts/beyond_the_mountains.ttf'),
-    url('../fonts/BeyondTheMountains.eot'); /* IE */
-}
-
 h1 {
-  font-size: 100px !important;
-  text-shadow: 4px 3px #000000;
+  font-size: 200px !important;
+  text-shadow: 1px 1px #000000;
 }
 
 h2 {
@@ -100,7 +94,6 @@ video {
 }
 
 .section3 {
-  background: white;
   padding-top: 10px;
   padding-bottom: 80px;
 }
@@ -182,6 +175,7 @@ a {
 .navbar-inverse {
     background: rgba(0,0,0,0.5);
     border: none;
+    font-family: Josefin Sans, sans-serif;
 }
 
 .navbar-inverse:hover {
@@ -199,7 +193,7 @@ a {
 }
 
 .bg {
-  background: url('../images/banner1.jpg') no-repeat center;
+  background: url('../images/banner2.png') no-repeat center;
   background-size: cover;
   position: fixed;
   width: 100%;
@@ -222,11 +216,11 @@ a {
 }
 
 .semi-transparent {
-  background:rgba(255,255,255,0.7);
+  background:rgba(255,255,255,0.4);
 }
 
 .dark-transparent {
-  background:rgba(0,0,0,0.7);
+  background:rgba(0,0,0,0.5);
 }
 
 .portrait {
